@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Facebook Clone</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font5/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo-section">
+            <div class="header__logo-icon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="header__logo-search">
+                <i class="fas fa-search"></i>
+                <input type="text">
+            </div>
+            <div class="header__mobile-button">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="header__menu-tabs">
+            <div class="header__menu-tab header__menu-tab--active">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-flag">
+                    <div class="header__notification-bubble">
+                        3
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-tv">
+                    <div class="header__notification-bubble">
+                        9
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+
+        <div class="header__account">
+            <div class="header__actions">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="header__user-img">
+                <span class="header__user-name">Betty Sue</span>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-plus"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fab fa-facebook-messenger"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-bell"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-sort-down"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="content-area content-area--feed">
+        <section class="sidenav">
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Betty Sue
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Friends
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Pages
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle">
+                        </div>9+ new
+                    </span>
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Groups
+                    <span class="sidenav__item-notification ">
+                        <div class="sidenav__item-notification-circle">
+                        </div>3+ new
+                    </span>
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Marketplace
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    See more
+                </span>
+            </div>
+            <div class="sidenav__line"></div>
+            <span class="sidenav__heading-title">
+                Your Shortcuts
+            </span>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-users"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    CodingPhase Students
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-users"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Close Friends
+                </span>
+            </div>
+
+            <div class="sidenav__item">
+                <img src="http://allpicts.in/wp-content/uploads/2017/11/dallas-cowboys-logo-PNG.png"
+                    class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Dallas Cowboys
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <img src="https://i2.wp.com/thumbs.dreamstime.com/b/old-fashioned-boxing-gloves-pair-brown-leather-s-30358969.jpg"
+                    class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Boxing
+                </span>
+            </div>
+
+        </section>
+        <section class="feed">
+            <div class="stories">
+                <div class="stories__video-container">
+                    <img src="https://i.ytimg.com/vi/NlKamRgzIdk/maxresdefault.jpg" alt="" class="stories__bg">
+                    <div class="stories__title">
+                        <div class="stories__new-btn">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        Create A story
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://i.pinimg.com/originals/c1/4c/bf/c14cbf43b37deec11b24ef248fa4e486.jpg" alt=""
+                        class="stories__bg">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="" class="stories__user">
+                        Stacy Kane
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://media3.giphy.com/media/3ofSBbPHESlXOpzVHW/giphy.gif" alt="" class="stories__bg">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="" class="stories__user">
+                        Brittney Thomas
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="http://www.illanoize.co/uploads/7/4/4/5/74456423/giphy_4.gif" alt="" class="stories__bg">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/men/63.jpg" alt="" class="stories__user">
+                        Jason <br> King
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://i.pinimg.com/originals/69/22/a1/6922a16be8f86271a88f811139bc7f3b.gif" alt=""
+                        class="stories__bg">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="" class="stories__user">
+                        Blair<br>Washington
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://media1.giphy.com/media/8vRml8ImiPj5GRbBPG/giphy.gif" alt="" class="stories__bg">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="" class="stories__user">
+                        Peter <br> Tyson
+                    </div>
+                </div>
+            </div>
+            <div class="feed__box submitpost">
+                <div class="newpost">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="" class="newpost__user-img">
+                    <input type="text" placeholder="What's on your mind Betty?">
+                </div>
+                <div class="hline"></div>
+                <div class="post-types">
+                    <div class="post-types__item">
+                        <i class="fas fa-video"></i> <span class="post-types__title">Live Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-photo-video"></i> <span class="post-types__title">Photo Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-laugh-beam"></i> <span class="post-types__title">Feeling/Activity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feed__box room">
+                <div class="newroom__create">
+                    <div class="newroom__create-room">
+                        <button class="fas fa-video"> <span>Create Room</span></button>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/men/95.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/78.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/men/92.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                    <div class="invite">
+                        <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="" class="invite__bg">
+                        <div class="online-bubble"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="feed__box photopost">
+                <div class="photopost__info">
+                    <div class="photopost__left">
+                        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="">
+                        <div class="photopost__details">
+                            <span class="photopost__name">James Dope</span>
+                            <span class="photopost__date"> June 14 at 11:36pm <i class="fas fa-user-friends"></i></span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="photopost__description">
+                    Dak Prescott is going to Win MVP this year!!
+                </div>
+                <div class="photopost__image">
+                    <img src="https://media.pff.com/2020/07/Dak-Prescott.jpg" alt="Photo of Dak-Prescott">
+                </div>
+                <div class="photopost__stats">
+                    <div class="photopost__stats-emojis">
+                        <div class="emoji-circle emoji-circle--blue">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--red">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--yellow">
+                            <i class="fas fa-surprise"></i>
+                        </div>
+                        3.3k
+                    </div>
+                    <div class="photopost__stats-share">
+                        788 comments 73 shares
+                    </div>
+                </div>
+                <div class="hline"></div>
+                <div class="photopost__actions">
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-thumbs-up"></i> Like
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-comment"></i> Comment
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-share"></i> Share
+                    </a>
+                    <div class="hline"></div>
+                </div>
+        </section>
+        <section class="sidenav__right">
+            <div class="sidenav__right-heading-title">
+                <span> Sponsored </span>
+                <div class="sidenav__right-line"></div>
+            </div>
+            <div class="sidenav__right-heading-pages">
+                <span> Your Pages </span>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+
+            <div class="sidenav__right-pages">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.UVvqYz4XLk45SQ1tu2CnKAHaHW&pid=Api&P=0&w=182&h=180"
+                    class="sidenav__right-item-img">
+                <span>
+                    Who's Next Sports
+                </span>
+            </div>
+            <div class="sidenav__right-pages">
+                <div class="sidenav__right-icon">
+                    <i class="fab fa-facebook-messenger"></i>
+                </div>
+                <span class="sidenav__right-item-title">15 messages</span>
+            </div>
+            <div class="sidenav__right-pages">
+                <div class="sidenav__right-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <span class="sidenav__right-item-title">20+ Notifications</span>
+            </div>
+            <div class="sidenav__right-pages">
+                <div class="sidenav__right-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <span class="sidenav__right-item-title">Create Promotion</span>
+            </div>
+            <div class="sidenav__right-line"></div>
+
+            <div class="sidenav__right-friends">
+                <div class="sidenav__right-heading-friends">
+                    <span class="sidenav__right-friend"> Friends Request </span>
+                    <span class="sidenav__right-all">See All</span>
+                </div>
+            </div>
+            <div class="sidenav__right-friend-info">
+                <div class="sidenav__right-request">
+                    <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="">
+                    <div class="sidenav__request-details">
+                        <span class="sidenav__right-friend-name">Derek Adams</span>
+                        <span class="sidenav__right-friend-mutual"> 6 mutual friends</span>
+                        <div class="sidenav__right-buttons">
+                            <button class="sidenav__button sidenav__button-confirm">Confirm</button>
+                            <button class="sidenav__button sidenav__button-delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="sidenav__right-friend-date"> 3w </span>
+            </div>
+            <div class="sidenav__right-line"></div>
+            <div class="sidenav__right-heading-title">
+                <span> Birthdays </span>
+            </div>
+            <div class="sidenav__right-birthday">
+                <i class="fas fa-gift"></i>
+                <span class="sidenav__bday-name"> Bradley Jackson</span>'s birthday is today.
+            </div>
+            <div class="sidenav__right-line"></div>
+            <div class="sidenav__right-heading-pages">
+                <span> Contacts </span>
+                <div class="sidenav__right-contact-icons">
+                <i class="fas fa-video"></i>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            </div>
+            <div class="sidenav__right-online-contacts">
+                <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div> 
+                <span class="online__name">Stacy Kane</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Brittney Kane</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/men/95.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Casey Blake</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/78.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Lisa Brown</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Kyle Tiller</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Maritza Ortiz</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Rosa Martinez</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/men/92.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Andy Wong</span>
+            </div>
+            <div class="online">
+                <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="" class="online__bg">
+                <div class="online-bubble"></div>
+                <span class="online__name">Becky White</span>
+            </div>
+        </section>
+    </section>
+    <section class="floatingmsg">
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="">
+            <div class="floatingmsg__notification">1</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="">
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="">
+            <div class="floatingmsg__notification">3</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="">
+            <div class="floatingmsg__notification">1</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/74.jpg" alt="">
+            <div class="floatingmsg__notification">1</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <i class="fas fa-edit"></i>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
